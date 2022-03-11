@@ -11,6 +11,11 @@ nav a {
     color: #aacfb2;
     text-decoration: none;
 }
+nav a:hover{
+    background-color: #aacfb2;
+    color: #2f3e46;
+}
+
 
 h2 {
     margin: 0;
@@ -209,10 +214,6 @@ main h2 {
 }
 
 
-nav a:hover{
-    background-color: #aacfb2;
-    color: #2f3e46;
-}
 
 #background {
     background-color: #aacfb2;
