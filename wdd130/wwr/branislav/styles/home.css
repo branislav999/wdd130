@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+/* html selectors */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #81B29A;
+}
+
+
+nav {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+nav a {
+    text-align: center;
+    color: #E07A5F;
+    text-decoration: none;
+    padding: 35px;
+    
+}
+
+
+header {
+    background-color: #3D405B;
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    
+}
+
+footer {
+    background-color: #3D405B;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+footer .social img {
+    padding-top: 15px;
+    
+    grid-column: 3/4;
+}
+
+footer h3 {
+    color: #E07A5F;
+    grid-column: 5/6;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/* class selectors */
+.logo {
+    width: 80px;
+    padding: 7px 35px 4px 35px;
+  
+}
+
+.heading_gospel {
+    grid-column: 4/5;
+    align-items: center;
+}
+
+
+.heading_history {
+    align-items: center;
+}
+
+.heading_gospel:hover {
+    background-color: #E07A5F;
+    color: #3D405B;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.heading_history:hover {
+    background-color: #E07A5F;
+    color: #3D405B;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.linkedin {
+     width: 64px;
+ }
+
+
+/* id selectors */
+#content {
+    border: 1px solid black;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #aacfb2;
+}
+
+#logo-link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+
+#history-img {
+    width: 100%;
+}
+
+#history-box {
+    grid-column: 1/6;
+    grid-row: 1/3;
+    z-index: 0;
+}
+
+#history {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+    
+}
+
+#history-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    z-index: 1;
+    background-color: #aacfb2;
+    color: #3D405B;
+    text-align: center;
+    margin-top: 350px;
+    border-radius: 45px;
+    padding: 10px 20px 10px 20px;
+    }
+
+
+
+#gospel-msg {
+    padding: 50px 30px 50px 30px;
+    background-color: #E07A5F;
+    margin-top: -10px;
+    color: #3D405B;
+    padding-left: 600px;
+}
+
+#gospel_img {
+    width: 100%;
+}

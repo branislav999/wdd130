@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Source+Sans+Pro:wght@300&display=swap');
 
 /* html selectors */
-nav {
-    display: flex;
-    justify-content: space-around;
-}
 
 nav a {
     text-align: center;

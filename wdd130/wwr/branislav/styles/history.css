@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #81B29A;
+    display: grid;
+}
+
+nav {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+nav a {
+    text-align: center;
+    color: #E07A5F;
+    text-decoration: none;
+    padding: 35px;
+    
+}
+
+
+header {
+    background-color: #3D405B;
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    
+}
+
+footer {
+    background-color: #3D405B;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+footer .social img {
+    padding-top: 15px;
+    
+    grid-column: 3/4;
+}
+
+footer h3 {
+    color: #E07A5F;
+    grid-column: 5/6;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #3D405B;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+
+
+
+
+
+/* class selectors */
+.logo {
+    width: 80px;
+    padding: 7px 35px 4px 35px;
+    
+}
+
+.heading_gospel {
+    grid-column: 4/5;
+}
+.heading_history {
+    align-items: center;
+}
+
+.heading_gospel:hover {
+    background-color: #E07A5F;
+    color: #3D405B;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.heading_history:hover {
+    background-color: #E07A5F;
+    color: #3D405B;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.linkedin {
+    width: 64px;
+}
+
+/* id selectors */
+
+#logo-link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+#content {
+    border: 1px solid black;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #aacfb2;
+}
+
+#beginning {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
+    background-color: #3D405B;
+    color: #81B29A;
+}
+
+#beginning h2 {
+    grid-column: 2/3;
+    padding: 40px 20px 40px;
+}
+
+#map {
+    grid-column: 4/5;
+    width: 85%;
+    padding: 20px 20px 20px 20px;
+    color: #3D405B;
+}
+
+
+#dusan {
+    padding: 50px 80px 50px 80px;
+    display: flex;
+    
+}
+#dusan h2 {
+    padding: 0px 20px 0px 20px;
+    color: #3D405B;
+}
+
+#kosovo {
+    padding: 50px 80px 50px 80px;
+    color: #3D405B;
+}
+#kosovo_battle {
+    width: 100%;
+}
+
+
+#milos {
+    padding: 50px 80px 50px 80px;
+    display: flex;
+}
+#milos h2 {
+    padding: 20px 50px 20px 50px;
+    z-index: 1;
+    color: #3D405B;
+}
+
+
+#last {
+    margin: 50px 200px 50px 200px;
+    padding: 30px 30px 30px 30px;
+    background-color: #E07A5F;
+    border-radius: 50px;
+    color: #3D405B;
+}
