@@ -29,6 +29,10 @@ Fonts are separated by a | */
     width: 380px;
 }
 
+img{
+  max-width: 500px;
+  padding: 20px 20px 20px 20px;
+}
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
